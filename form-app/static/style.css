@@ -1,0 +1,81 @@
+/* Reset some default browser styles */
+body,
+h1,
+p,
+ul,
+li,
+form,
+label,
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select {
+  appearance: none; /* Remove default arrow on select */
+  padding-right: 25px; /* Add space for custom arrow */
+  background-image: url('arrow-down.png'); /* Add a custom arrow */
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="button"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Styles for specific elements */
+#email,
+#pass,
+#repass {
+  width: 100%;
+}
+
+textarea {
+  resize: vertical; /* Allow vertical resizing */
+}
+
+/* Add more specific styles as needed */
